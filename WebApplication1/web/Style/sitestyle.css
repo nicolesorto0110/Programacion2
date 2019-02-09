@@ -1,0 +1,22 @@
+            h1
+            {
+                color:black;
+                font-family:Arial;
+                font-size: 56px;
+                background-color: #7FFFD4;
+            }
+            p
+            {
+                font-family: Calibri;
+                font-size: 28px;
+            }
+            .main
+            {
+                font-size: 72px;
+                color: yellow;
+            }
+       
+            #spec{
+                font-size: 72px;
+                color: cornflowerblue;
+            }
