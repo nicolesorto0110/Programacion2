@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>New JavaScript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+                function onmouseclick(name){
+                    alert('te quielo ' + name);
+                    var i= 23+5;
+                    var b= 25;
+                    var o= 12-3;
+                    alert('numbers: '+i+', '+b+', '+o);
+                    }
+                    
+                function addNumber(){
+                    var num1 = document.getElementById("num1").value;
+                        num1 = parseInt(num1);
+                    var num2 = document.getElementById("num2").value;
+                        num2 = parseInt(num2);
+                    var result = num1 + num2;
+                        result = result * 2;
+                    document.getElementById("result").value = result;
+                }
+        </script>
+        
+    </head>
+    <body>
+        
+        <h1>New JavaScript</h1>
+        <br>
+        <button onclick="onmouseclick('Nicole')">click me!</button>
+        <br><br>
+            number 1: <input type="number" id="num1"/>
+             <br><br>
+            number 2: <input type="number" id="num2"/>
+             <br><br>
+            result: <input type="number" id="result"/>
+             <br><br>
+             <button onclick="addNumber()">Add</button>
+        
+    </body>
+</html>
