@@ -1,0 +1,25 @@
+/* 
+    Created on : 03-04-2019, 03:13:05 PM
+    Author     : Nicole
+*/
+input[type=text]{
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+}
+
+input[type=number]{
+    background-color: blueviolet;
+    color: white;
+    font-weight: normal;
+}
+
+label{
+    font-family: Comic Sans MS;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 4px;
+}
+
