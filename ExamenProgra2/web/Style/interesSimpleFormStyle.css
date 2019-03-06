@@ -1,0 +1,23 @@
+input {
+    font-weight: bold;
+}
+
+input[type=text],input[type=number]{
+    background-color: black;
+    color: white;
+}
+
+input:focus{
+    background-color: lightgray;
+    color: black;
+}
+
+label{
+    font-family:arial;
+    font-size:24px;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+    padding-right:4px;
+    padding-left: 4px;
+}
